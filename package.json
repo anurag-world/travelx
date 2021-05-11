@@ -4,7 +4,6 @@
   "description": "A Travel Website",
   "main": "index.js",
   "scripts": {
-    "predeploy": "gulp",
     "deploy": "gh-pages -d build"
   },
   "author": "Anurag V",
