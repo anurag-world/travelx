@@ -1,0 +1,2 @@
+//Script
+"use strict";
