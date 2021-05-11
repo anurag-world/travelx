@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>TravelX: A Travel Website by Anurag V</title>
+
+    <meta name="description" content="Travel Website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Import JS -->
+
+    <!-- Bootstrap JS -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Our project just needs Font Awesome solid + brand -->
+    <script defer src="js/lib/fontawesome/brands.js"></script>
+    <script defer src="js/lib/fontawesome/solid.js"></script>
+    <script defer src="js/lib/fontawesome/fontawesome.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <header>
+      <!-- Call Us -->
+      <div class="call">
+        <p>Call Us: +1 655-762-4268</p>
+      </div>
+
+      <!-- Top Links -->
+      <div class="top">
+        <div class="top-link">
+          <i class="fas fa-lock"></i>
+          <a href="#">Log In</a>
+        </div>
+        <div class="top-link">
+          <i class="fas fa-user"></i>
+          <a href="#">Create an account</a>
+        </div>
+
+        <div class="currency-dropdown">
+          <a href="#">USD</a>
+          <i class="fas fa-chevron-down"></i>
+          <div class="currency-dropdown-content">
+            <p>INR</p>
+            <p>AUD</p>
+            <p>EUR</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navbar -->
+    <div class="header-main">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Book Online</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="mb-2">Travel <span>to explore</span></h1>
+        <h3 class="mb-5">Perfect packages to suit your needs</h3>
+        <a href="#" class="cta-outline-white">Get a free quote</a>
+      </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages">
+      <div class="package-items">
+        <img src="img/packages/beach.jpg" alt="beach" />
+        <div class="package-content">
+          <h1>Beach</h1>
+          <div class="pkg-items-link">
+            <a href="#">View Packages</a>
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="package-items">
+        <img src="img/packages/adventure.jpg" alt="adventure" />
+        <div class="package-content">
+          <h1>Adventure</h1>
+          <div class="pkg-items-link">
+            <a href="#">View Packages</a>
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="package-items">
+        <img src="img/packages/sports.jpg" alt="sports" />
+        <div class="package-content">
+          <h1>Sports</h1>
+          <div class="pkg-items-link">
+            <a href="#">View Packages</a>
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="pkg-link">
+        <a href="#">View more packages & tours</a>
+        <i class="fas fa-arrow-right"></i>
+      </div>
+    </section>
+
+    <!-- Section 1 -->
+    <div class="section-1">
+      <img src="img/section.jpg" alt="Discover" />
+      <div class="section-1-content">
+        <h1>Discover New Places</h1>
+        <h2>Why Chose Us?</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat
+          condimentum est vitae porta. Nullam euismod risus ex, ac maximus purus
+          accumsan ac. Fusce id nulla sed metus scelerisque placerat.
+        </p>
+        <div class="section-1-cta">
+          <a href="#" class="cta-dark">Get in touch</a>
+          <a href="#" class="cta-outline-dark">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services-heading">
+      <h1>Our Services</h1>
+    </div>
+    <div class="services-section">
+      <div class="services">
+        <i class="fas fa-box-open"></i>
+        <h2 class="mt-3">Personalied Packages</h2>
+        <p class="mt-3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, tenetur
+        </p>
+      </div>
+
+      <div class="services">
+        <i class="fas fa-headset"></i>
+        <h2 class="mt-3">24/7 Support</h2>
+        <p class="mt-3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, tenetur
+        </p>
+      </div>
+
+      <div class="services">
+        <i class="fas fa-wallet"></i>
+        <h2 class="mt-3">Best Price Guaraneed</h2>
+        <p class="mt-3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, tenetur
+        </p>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+
+    <div class="section-2">
+      <h1 class="mb-3">Make Every Moment Precious!</h1>
+      <p class="mb-5">
+        with our memorable travel packages & best-in-class hotel stay
+      </p>
+      <a href="#" class="cta-dark-light">Book a tour now</a>
+    </div>
+
+    <!-- Featured Packages -->
+    <div class="featured-pkg-heading">
+      <h1>Featured Packages</h1>
+    </div>
+    <div class="featured-pkg">
+      <div class="pkg-card">
+        <img src="img/packages/card-01.jpg" alt="Featured Package 01" />
+        <div class="pkg-card-body">
+          <div class="pkg-card-head mb-3">
+            <h2>Maldives</h2>
+            <h2 class="secondary-color">$1,320</h2>
+          </div>
+
+          <div class="pkg-reviews">
+            <div class="pkg-star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>213 Customer Reviews</p>
+          </div>
+
+          <p class="mt-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+            quaerat temporibus animi aliquid repellat dolore possimus
+            repudiandae deserunt est doloribus!
+          </p>
+          <a href="#" class="cta-dark mt-4">Details</a>
+        </div>
+      </div>
+
+      <div class="pkg-card">
+        <img src="img/packages/card-02.jpg" alt="Featured Package 02" />
+        <div class="pkg-card-body">
+          <div class="pkg-card-head mb-3">
+            <h2>Germany</h2>
+            <h2 class="secondary-color">$870</h2>
+          </div>
+
+          <div class="pkg-reviews">
+            <div class="pkg-star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>117 Customer Reviews</p>
+          </div>
+
+          <p class="mt-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+            quaerat temporibus animi aliquid repellat dolore possimus
+            repudiandae deserunt est doloribus!
+          </p>
+          <a href="#" class="cta-dark mt-4">Details</a>
+        </div>
+      </div>
+
+      <div class="pkg-card">
+        <img src="img/packages/card-03.jpg" alt="Featured Package 03" />
+        <div class="pkg-card-body">
+          <div class="pkg-card-head mb-3">
+            <h2>Italy</h2>
+            <h2 class="secondary-color">$1,250</h2>
+          </div>
+
+          <div class="pkg-reviews">
+            <div class="pkg-star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>321 Customer Reviews</p>
+          </div>
+
+          <p class="mt-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+            quaerat temporibus animi aliquid repellat dolore possimus
+            repudiandae deserunt est doloribus!
+          </p>
+          <a href="#" class="cta-dark mt-4">Details</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+
+    <div class="section-3">
+      <h1 class="mb-3">Sign up & get 20% Discount</h1>
+      <p class="mb-5">
+        Enter your email and get 20% discount on our world-class tour packages
+      </p>
+      <div class="subscribe">
+        <form action="#">
+          <div class="sub-form-group">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Email Address"
+              class="sub-form-control"
+              required
+            />
+          </div>
+          <div class="sub-form-group">
+            <button type="submit" id="submit">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+      <!-- Contact -->
+      <div class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-content mt-4">
+          <i class="fas fa-phone"></i>
+          <p>+1 655-762-4268</p>
+        </div>
+
+        <div class="contact-content mt-4">
+          <i class="fas fa-envelope"></i>
+          <p>Contact@Travelop.com</p>
+        </div>
+
+        <div class="contact-content mt-4">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>31987, Kendrick Through <br />North Ladariusfort, LA</p>
+        </div>
+      </div>
+
+      <!-- Blog Posts -->
+      <div class="blog-posts">
+        <h2>Blog Posts</h2>
+        <div class="post-content mt-4">
+          <p>
+            <a href="#">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati quidem inventore necessitatibus. Voluptate aut ipsa
+              dolorem.
+              <span class="mt-2">17 Apr</span>
+            </a>
+          </p>
+        </div>
+
+        <div class="post-content mt-4">
+          <p>
+            <a href="#">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati quidem inventore necessitatibus. Voluptate aut ipsa
+              dolorem.
+              <span class="mt-2">17 Apr</span>
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="quick-links">
+        <h2>Quick Links</h2>
+        <div class="footer-links">
+          <ul class="mt-4">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Book Online</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="end">
+      <div class="end-terms">
+        <a href="#">Privacy Policy</a> | <a href="#">Terms</a> |
+        <a href="#">Disclaimer</a>
+      </div>
+      <div>
+        <i class="fas fa-copyright"></i>
+        <p>2021 TravelX. All Rights Reserved</p>
+      </div>
+    </div>
+
+    <script src="js/script.js" async defer></script>
+  </body>
+</html>
