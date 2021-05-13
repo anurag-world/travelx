@@ -146,6 +146,7 @@ a:hover {
   border: 1px $primary-color solid;
   text-decoration: none;
   color: $light;
+  transition: all 0.5s;
 }
 
 // CTA Dark
@@ -168,6 +169,7 @@ a:hover {
   background-color: transparent;
   text-decoration: none;
   color: $dark-primary;
+  transition: all 0.5s;
 }
 
 @include breakpoint(maxx) {
@@ -197,6 +199,7 @@ a:hover {
   background-color: $dark-primary;
   text-decoration: none;
   color: $light;
+  transition: all 0.5s;
 }
 
 @include breakpoint(maxx) {
@@ -226,6 +229,7 @@ a:hover {
   background-color: $light;
   text-decoration: none;
   color: $dark;
+  transition: all 0.5s;
 }
 
 @include breakpoint(maxx) {
