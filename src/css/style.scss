@@ -65,6 +65,11 @@ $base-font: 1.6rem;
   font-weight: 400;
 }
 
+// Animation
+@mixin btn-transition {
+  transition: all 0.5s ease;
+}
+
 // Images
 $img-border-radius: 1rem;
 
@@ -139,6 +144,7 @@ a:hover {
   color: $light;
   cursor: pointer;
   @include mobile-links-14($roboto);
+  @include btn-transition();
 }
 
 .cta-dark-light:hover {
@@ -146,7 +152,6 @@ a:hover {
   border: 1px $primary-color solid;
   text-decoration: none;
   color: $light;
-  transition: all 0.5s;
 }
 
 // CTA Dark
@@ -163,13 +168,13 @@ a:hover {
   color: $light;
   cursor: pointer;
   @include mobile-links-14($roboto);
+  @include btn-transition();
 }
 
 .cta-dark:hover {
   background-color: transparent;
   text-decoration: none;
   color: $dark-primary;
-  transition: all 0.5s;
 }
 
 @include breakpoint(maxx) {
@@ -194,12 +199,12 @@ a:hover {
   color: $dark-primary;
   cursor: pointer;
   @include mobile-links-14($roboto);
+  @include btn-transition();
 }
 .cta-outline-dark:hover {
   background-color: $dark-primary;
   text-decoration: none;
   color: $light;
-  transition: all 0.5s;
 }
 
 @include breakpoint(maxx) {
@@ -224,12 +229,12 @@ a:hover {
   color: $light;
   cursor: pointer;
   @include mobile-links-14($roboto);
+  @include btn-transition();
 }
 .cta-outline-white:hover {
   background-color: $light;
   text-decoration: none;
   color: $dark;
-  transition: all 0.5s;
 }
 
 @include breakpoint(maxx) {
