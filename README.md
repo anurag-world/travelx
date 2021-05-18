@@ -1,6 +1,6 @@
 # TravelX - A Travel Website
 
-The inspiration for this project came from my love to travel around the world. This project was made by keeping responsive design in mind so that it remains consistent on any given screen size like mobile, desktop, etc. Below you will find all the technologies used to create this project.
+The inspiration for this project came from my love to travel around the world. Responsive design is the main highlight for this project, so that it remains consistent on any given screen size like mobile, desktop, etc. Below you will find all the technologies used to create this project.
 
 ## Technologies used
 
